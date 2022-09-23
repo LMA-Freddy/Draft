@@ -1,0 +1,275 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, ul li, ol li {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.custom-bg {
+    background-color: #1E3042;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.title {
+    font-size: 30px;
+    border-right: 3px solid #ffffff;
+    padding: 0px 16px 0px 0px;
+}
+
+.title:hover {
+    color: white;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.sign-in-button {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+.sign-in-button:hover {
+    background-color: #1E3042;
+    border: 1px solid #ffffff;
+    color: #fffffF;
+}
+
+.home-content-container {
+    border: 1px solid #1E3042;
+    padding: 30px;
+    background-color: #1E3042;
+    color: white;
+    border-radius: 20px;
+}
+
+.content-container {
+    border: 1px solid #1E3042;
+    padding: 30px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 20px;
+}
+
+.register-button {
+    border: 2px solid #1E3042;
+    padding: 6px 12px;
+    font-size: 20px;
+    background-color: #1E3042;
+    color: #ffffff;
+    margin: 0px auto;
+    display: block;
+}
+
+.register-button:hover {
+    background-color: #ffffff;
+    color: #1E3042;
+}
+
+.register-button-two {
+    border: 2px solid #ffffff;
+    padding: 6px 12px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #1E3042;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.register-button-two:hover {
+    background-color: #1E3042;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.name {
+    color: #ffffff;
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.form-container {
+    border: 1px solid #1E3042;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-button {
+    border: 1px solid #1E3042;
+    background-color: #1E3042;
+    padding: 6px 12px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.form-button:hover {
+    background-color: #fffffF;
+    border: 1px solid #1E3042;
+    color: #1E3042;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 35px;
+}
+
+.home-content-intro {
+    padding: 20px;
+}
+
+.home-content-intro h1 {
+    text-decoration: underline;
+}
+
+.specific-link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.specific-link:hover {
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+.thankyou-form {
+    border: 1px solid #1E3042;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #1E3042;
+}
+
+.past, .present, .future {
+    padding: 10px;
+    border: 1px solid #1E3042;
+    width: 130px;
+    text-align: center;
+}
+
+.past {
+    text-decoration: line-through;
+    background-color: #1E3042;
+    color: #ffffff;
+}
+
+.present {
+    text-decoration: underline;
+}
+
+.content-container h2 {
+    color: #1E3042;
+    text-align: center;
+}
+
+.content-container ol li {
+    color: #1E3042;
+}
+
+.results {
+    color: #ffffff;
+    background-color: #1E3042;
+    margin: 0px auto;
+    max-width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+
+.order-table, tr, td, th {
+    border: 1px solid black;
+}
+
+.order-table {
+    width: 100%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.button-one {
+    border: 2px solid #1E3042;
+    padding: 6px 12px;
+    font-size: 20px;
+    background-color: #1E3042;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.button-one:hover {
+    background-color: #ffffff;
+    color: #1E3042;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  .tooltip-text::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #1E3042;
+    padding: 5px;
+    z-index: 1;
+  }
+  
+  .hover-text:hover .tooltip-text {
+    visibility: visible;
+  }
+
+  #right {
+    top: -8px;
+    left: 120%;
+  }
+  
+  #right::before {
+    top: 35%;
+    left: -2%;
+  }
+  
+  .hover-text {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0px;
+    font-family: Avenir;
+    text-align: center;
+  }
+
+  .hover-text img {
+    max-width: 20px;
+    margin-bottom: 3px;
+  }
